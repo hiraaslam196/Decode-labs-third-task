@@ -1,0 +1,16 @@
+Enter your skills:
+Skill 1: Python
+Skill 2: Machine Learning  
+Skill 3: SQL
+Skill 4: Data Visualization
+
+Top 5 Recommended Job Roles:
+┌────────────────────────┬──────────┬────────────────────────┐
+│ Job Role               │ Match %  │ Key Skills             │
+├────────────────────────┼──────────┼────────────────────────┤
+│ Data Scientist         │ 87.3%    │ Python, R, SQL, ML     │
+│ Machine Learning Eng.  │ 82.1%    │ Python, TensorFlow...  │
+│ Data Analyst           │ 75.6%    │ SQL, Python, Tableau   │
+│ Business Intelligence  │ 68.4%    │ SQL, Power BI, Excel   │
+│ Quant Analyst          │ 62.9%    │ Python, R, Math, Stats │
+└────────────────────────┴──────────┴────────────────────────┘
