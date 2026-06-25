@@ -1,0 +1,4 @@
+from sklearn.metrics.pairwise import cosine_similarity
+
+user_vector = vectorizer.transform([user_skills_string])
+similarities = cosine_similarity(user_vector, tfidf_matrix)
