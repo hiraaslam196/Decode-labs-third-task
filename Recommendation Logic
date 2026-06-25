@@ -1,0 +1,5 @@
+def recommend(skills, df, vectorizer, tfidf_matrix):
+    user_vec = vectorizer.transform([' '.join(skills)])
+    scores = cosine_similarity(user_vec, tfidf_matrix).flatten()
+    df['score'] = scores
+    return df.sort_values('score', ascending=False)
